@@ -1,0 +1,11 @@
+******** Production is a virtual YouTuber (VTuber) talent agency owned by Japanese tech entertainment company Cover Corporation. As of 2021, the agency manages a total of 52 active VTuber talents between its branches, with notable members including Shirakami Fubuki, Usada Pekora, Houshou Marine, Kiryu Coco, Inugami Korone, Minato Aqua, Akai Haato, and Gawr Gura.
+Peko
+1
+50
+30
+10
+cin.get() -- the two get functions both extract the next single character on the input stream, and they do not skip any white space.
+the
+e
+12
+10

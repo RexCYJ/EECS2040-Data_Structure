@@ -1,0 +1,207 @@
+Input the first matrix:
+rows: cols: terms: 
+1)  2)  3)  4)  5)  Input the second matrix:
+rows: cols: terms: 
+1)  2)  3)  4)  5)  6)  7)  
+A:
+	row: 4	column: 4
+	None zero entries: 4
+	index 0: ( 0, 0, 4 )
+	index 1: ( 0, 3, 5 )
+	index 2: ( 1, 2, 5 )
+	index 3: ( 3, 2, 9 )
+	4	0	0	5	
+	0	0	5	0	
+	0	0	0	0	
+	0	0	9	0	
+	
+B:
+	row: 4	column: 4
+	None zero entries: 6
+	index 0: ( 0, 0, 1 )
+	index 1: ( 0, 2, 6 )
+	index 2: ( 1, 3, 5 )
+	index 3: ( 2, 2, 8 )
+	index 4: ( 2, 3, 10 )
+	index 5: ( 3, 1, 6 )
+	1	0	6	0	
+	0	0	0	5	
+	0	0	8	10	
+	0	6	0	0	
+	
+Transpose of B:
+	row: 4	column: 4
+	None zero entries: 6
+	index 0: ( 0, 0, 1 )
+	index 1: ( 1, 3, 6 )
+	index 2: ( 2, 0, 6 )
+	index 3: ( 2, 2, 8 )
+	index 4: ( 3, 1, 5 )
+	index 5: ( 3, 2, 10 )
+	1	0	0	0	
+	0	0	0	6	
+	6	0	8	0	
+	0	5	10	0	
+	
+A + B = 
+	row: 4	column: 4
+	None zero entries: 9
+	index 0: ( 0, 0, 5 )
+	index 1: ( 0, 2, 6 )
+	index 2: ( 0, 3, 5 )
+	index 3: ( 1, 2, 5 )
+	index 4: ( 1, 3, 5 )
+	index 5: ( 2, 2, 8 )
+	index 6: ( 2, 3, 10 )
+	index 7: ( 3, 1, 6 )
+	index 8: ( 3, 2, 9 )
+	5	0	6	5	
+	0	0	5	5	
+	0	0	8	10	
+	0	6	9	0	
+	
+A * B = 
+	row: 4	column: 4
+	None zero entries: 7
+	index 0: ( 0, 0, 4 )
+	index 1: ( 0, 1, 30 )
+	index 2: ( 0, 2, 24 )
+	index 3: ( 1, 2, 40 )
+	index 4: ( 1, 3, 50 )
+	index 5: ( 3, 2, 72 )
+	index 6: ( 3, 3, 90 )
+	4	30	24	0	
+	0	0	40	50	
+	0	0	0	0	
+	0	0	72	90	
+	
+Input the first matrix:
+rows: cols: terms: 
+1)  2)  3)  4)  5)  6)  7)  8)  9)  10)  Input the second matrix:
+rows: cols: terms: 
+1)  2)  3)  4)  5)  6)  7)  8)  9)  10)  11)  12)  C:
+	row: 9	column: 9
+	None zero entries: 9
+	index 0: ( 0, 0, 1 )
+	index 1: ( 1, 1, 1 )
+	index 2: ( 2, 2, 1 )
+	index 3: ( 3, 3, 1 )
+	index 4: ( 4, 4, 1 )
+	index 5: ( 5, 5, 1 )
+	index 6: ( 6, 6, 1 )
+	index 7: ( 7, 7, 1 )
+	index 8: ( 8, 8, 1 )
+	1	0	0	0	0	0	0	0	0	
+	0	1	0	0	0	0	0	0	0	
+	0	0	1	0	0	0	0	0	0	
+	0	0	0	1	0	0	0	0	0	
+	0	0	0	0	1	0	0	0	0	
+	0	0	0	0	0	1	0	0	0	
+	0	0	0	0	0	0	1	0	0	
+	0	0	0	0	0	0	0	1	0	
+	0	0	0	0	0	0	0	0	1	
+	
+D:
+	row: 9	column: 9
+	None zero entries: 11
+	index 0: ( 1, 0, 222 )
+	index 1: ( 2, 5, 98 )
+	index 2: ( 2, 6, 301 )
+	index 3: ( 3, 1, -43 )
+	index 4: ( 4, 3, 122 )
+	index 5: ( 4, 8, 763 )
+	index 6: ( 5, 1, 232 )
+	index 7: ( 5, 6, 875 )
+	index 8: ( 6, 7, 8 )
+	index 9: ( 7, 0, 8 )
+	index 10: ( 7, 7, 100 )
+	0	0	0	0	0	0	0	0	0	
+	222	0	0	0	0	0	0	0	0	
+	0	0	0	0	0	98	301	0	0	
+	0	-43	0	0	0	0	0	0	0	
+	0	0	0	122	0	0	0	0	763	
+	0	232	0	0	0	0	875	0	0	
+	0	0	0	0	0	0	0	8	0	
+	8	0	0	0	0	0	0	100	0	
+	0	0	0	0	0	0	0	0	0	
+	
+Transpose of D:
+	row: 9	column: 9
+	None zero entries: 11
+	index 0: ( 0, 1, 222 )
+	index 1: ( 0, 7, 8 )
+	index 2: ( 1, 3, -43 )
+	index 3: ( 1, 5, 232 )
+	index 4: ( 3, 4, 122 )
+	index 5: ( 5, 2, 98 )
+	index 6: ( 6, 2, 301 )
+	index 7: ( 6, 5, 875 )
+	index 8: ( 7, 6, 8 )
+	index 9: ( 7, 7, 100 )
+	index 10: ( 8, 4, 763 )
+	0	222	0	0	0	0	0	8	0	
+	0	0	0	-43	0	232	0	0	0	
+	0	0	0	0	0	0	0	0	0	
+	0	0	0	0	122	0	0	0	0	
+	0	0	0	0	0	0	0	0	0	
+	0	0	98	0	0	0	0	0	0	
+	0	0	301	0	0	875	0	0	0	
+	0	0	0	0	0	0	8	100	0	
+	0	0	0	0	763	0	0	0	0	
+	
+C + D = 
+	row: 9	column: 9
+	None zero entries: 19
+	index 0: ( 0, 0, 1 )
+	index 1: ( 1, 0, 222 )
+	index 2: ( 1, 1, 1 )
+	index 3: ( 2, 2, 1 )
+	index 4: ( 2, 5, 98 )
+	index 5: ( 2, 6, 301 )
+	index 6: ( 3, 1, -43 )
+	index 7: ( 3, 3, 1 )
+	index 8: ( 4, 3, 122 )
+	index 9: ( 4, 4, 1 )
+	index 10: ( 4, 8, 763 )
+	index 11: ( 5, 1, 232 )
+	index 12: ( 5, 5, 1 )
+	index 13: ( 5, 6, 875 )
+	index 14: ( 6, 6, 1 )
+	index 15: ( 6, 7, 8 )
+	index 16: ( 7, 0, 8 )
+	index 17: ( 7, 7, 101 )
+	index 18: ( 8, 8, 1 )
+	1	0	0	0	0	0	0	0	0	
+	222	1	0	0	0	0	0	0	0	
+	0	0	1	0	0	98	301	0	0	
+	0	-43	0	1	0	0	0	0	0	
+	0	0	0	122	1	0	0	0	763	
+	0	232	0	0	0	1	875	0	0	
+	0	0	0	0	0	0	1	8	0	
+	8	0	0	0	0	0	0	101	0	
+	0	0	0	0	0	0	0	0	1	
+	
+C * D = 
+	row: 9	column: 9
+	None zero entries: 11
+	index 0: ( 1, 0, 222 )
+	index 1: ( 2, 5, 98 )
+	index 2: ( 2, 6, 301 )
+	index 3: ( 3, 1, -43 )
+	index 4: ( 4, 3, 122 )
+	index 5: ( 4, 8, 763 )
+	index 6: ( 5, 1, 232 )
+	index 7: ( 5, 6, 875 )
+	index 8: ( 6, 7, 8 )
+	index 9: ( 7, 0, 8 )
+	index 10: ( 7, 7, 100 )
+	0	0	0	0	0	0	0	0	0	
+	222	0	0	0	0	0	0	0	0	
+	0	0	0	0	0	98	301	0	0	
+	0	-43	0	0	0	0	0	0	0	
+	0	0	0	122	0	0	0	0	763	
+	0	232	0	0	0	0	875	0	0	
+	0	0	0	0	0	0	0	8	0	
+	8	0	0	0	0	0	0	100	0	
+	0	0	0	0	0	0	0	0	0	
+	

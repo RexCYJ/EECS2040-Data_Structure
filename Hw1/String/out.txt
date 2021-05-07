@@ -1,0 +1,41 @@
+----<Run 1>--------------------------------------
+Type your input string:
+Type the searching pattern:
+1) Your Input:
+   S:  	******** Production is a virtual YouTuber (VTuber) talent agency owned by Japanese tech entertainment company Cover Corporation. As of 2021, the agency manages a total of 52 active VTuber talents between its branches, with notable members including Shirakami Fubuki, Usada Pekora, Houshou Marine, Kiryu Coco, Inugami Korone, Minato Aqua, Akai Haato, and Gawr Gura.
+
+   Pat:	Peko
+
+2) The length of input is 364
+3) Concat the input and pattern:
+      ******** Production is a virtual YouTuber (VTuber) talent agency owned by Japanese tech entertainment company Cover Corporation. As of 2021, the agency manages a total of 52 active VTuber talents between its branches, with notable members including Shirakami Fubuki, Usada Pekora, Houshou Marine, Kiryu Coco, Inugami Korone, Minato Aqua, Akai Haato, and Gawr Gura.Peko
+4) The first pattern in the input string is at 273
+5) Select a section to be deleted. S.Delete(start, length)
+	> Start:   	> length:  
+   Current string:
+     *talent agency owned by Japanese tech entertainment company Cover Corporation. As of 2021, the agency manages a total of 52 active VTuber talents between its branches, with notable members including Shirakami Fubuki, Usada Pekora, Houshou Marine, Kiryu Coco, Inugami Korone, Minato Aqua, Akai Haato, and Gawr Gura.
+6) Select a piece. S.Substr(start, length)
+	> Start:   	> length:  
+   Current string:
+     se tech en
+
+----<Run 2>--------------------------------------
+Type your input string:
+Type the searching pattern:
+1) Your Input:
+   S:  	cin.get() -- the two get functions both extract the next single character on the input stream, and they do not skip any white space.
+
+   Pat:	the
+
+2) The length of input is 132
+3) Concat the input and pattern:
+      cin.get() -- the two get functions both extract the next single character on the input stream, and they do not skip any white space.the
+4) The first pattern in the input string is at 13
+5) Select a character to be deleted. S.CharDelete(char)
+	> Char:   
+   Current string:
+     cin.gt() -- th two gt functions both xtract th nxt singl charactr on th input stram, and thy do not skip any whit spac.
+6) Select a piece. S.Substr(start, length)
+	> Start:   	> length:  
+   Current string:
+     th two gt 
